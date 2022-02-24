@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="Topsis_ShivomChawla_101916036",
-    version="0.0.0",
+    version="1.0.0",
     author="Shivom",
     author_email="schawla_be19@thapar.edu",
     description="A small package to work with topsis",
