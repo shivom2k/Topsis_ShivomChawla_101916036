@@ -6,8 +6,8 @@ with open("README.md", "r") as f:
 setup(
     name="Topsis_ShivomChawla_101916036",
     version="0.0.0",
-    author="Shivom Chawla",
-    author_email="shivomchawla2000@gmail.com",
+    author="Shivom",
+    author_email="schawla_be19@gmail.com",
     description="A small package to work with topsis",
     long_description=long_description,
     long_description_content_type="text/markdown",
