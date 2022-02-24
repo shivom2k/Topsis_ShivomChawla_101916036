@@ -7,7 +7,7 @@ setup(
     name="Topsis_ShivomChawla_101916036",
     version="0.0.0",
     author="Shivom",
-    author_email="schawla_be19@gmail.com",
+    author_email="schawla_be19@thapar.edu",
     description="A small package to work with topsis",
     long_description=long_description,
     long_description_content_type="text/markdown",
