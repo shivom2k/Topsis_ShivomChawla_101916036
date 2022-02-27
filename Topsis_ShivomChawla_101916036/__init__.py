@@ -55,7 +55,7 @@ def topsis(file_name,weight,impact,result_file_name):
             temp=temp**0.5
             for j in range(total_rows):
                 #print(data.iloc[j,i])
-                data.iat[j,i]=(data.iloc[j,i]/temp)*int(weight[i])
+                data.iat[j,i]=(data.iloc[j,i]/temp)*float(weight[i])
 
         vj_positive=[]
         vj_negative=[]
@@ -87,6 +87,7 @@ def topsis(file_name,weight,impact,result_file_name):
         topsis_score = pd.DataFrame(topsis_score)
         topsis_rank = topsis_score.rank(method='first',ascending=False)
         df["rank"]=topsis_rank
+        df = df.astype({"rank": int})
         df.to_csv(result_file_name,index=False)
     
     
